@@ -11,3 +11,15 @@ body {
     align-items: center;
     height: 100vh;
 }
+.weather-container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.weather-container h1 {
+    margin-bottom: 20px;
+    color: #1976d2;
+}
