@@ -23,3 +23,28 @@ body {
     margin-bottom: 20px;
     color: #1976d2;
 }
+.search-box {
+    gap: 10px;
+    display:flex;
+    margin-bottom: 25px;
+}
+.search-box input {
+    padding: 10px;
+    width: 70%;
+    flex:1;
+    font-size: 16px;
+    border: 1px solid #1976d2;
+    border-radius: 5px;
+}
+.search-box button {
+    padding: 10px 15px;
+    background-color: #1976d2;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.search-box button:hover {
+    background-color: #1565c0;
+}
